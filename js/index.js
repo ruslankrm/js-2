@@ -1,8 +1,8 @@
 alert('hello');
 
-const a = parseFloat(prompt(('number a'));
-const b = parseFloat(prompt(('number b'));
-const c = parseFloat(prompt(('number c'));
+const a = parseFloat(prompt('number a'));
+const b = parseFloat(prompt('number b'));
+const c = parseFloat(prompt('number c'));
 
 function resultat(a, b, c){
     const d = discr(a, b, c);
@@ -18,7 +18,7 @@ function discr(a, b, c){
      }else if (d === 0){
          x1 = (-b)/(2*a);
          alert('x = +x1')
-     }else (d < 0){
+     }else (d < 0) {
          return 'no solution';
      }
 }
